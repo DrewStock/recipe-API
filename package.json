@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "MONGODB_URI=mongodb://test-chore-game-admin:cutter_jar_flatware@ds145828.mlab.com:45828/test-chore-game mocha",
-    "start": "node server.js",
+    "test": "mocha",
+    "start": "nodemon server.js",
     "start:watch": "nodemon server.js"
   },
   "author": "",
